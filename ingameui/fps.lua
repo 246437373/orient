@@ -8,6 +8,6 @@ end
 rs.RenderStepped:connect(updateFPS)
 
 while wait'1' do
-	script.Parent.Text = fps .." "
+	script.Parent.Text = fps ..""
 	fps = 0
 end
